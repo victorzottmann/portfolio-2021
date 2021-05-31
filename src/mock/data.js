@@ -28,30 +28,39 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'steamdeck.png',
+    title: 'STEAMdeck',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://steamdeck.herokuapp.com/',
+    repo: 'https://github.com/victorzottmann/steamdeck', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'gifs-n-stickers.png',
+    title: 'GIFs-n-Stickers',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://gifs-n-stickers.netlify.app/',
+    repo: 'https://github.com/teraglin/Gifs-N-Stickers', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'acoustics.png',
+    title: 'Sound Level Calculator (Terminal-based)',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/victorzottmann/acoustics-calculator', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'portfolio-2020.png',
+    title: 'First Portfolio',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/victorzottmann/portfolio-2020', // if no repo, the button will not show up
   },
 ];
 
@@ -68,22 +77,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/vzcodes',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/vzottmann/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/victorzottmann',
     },
   ],
 };
