@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Victor Zottmann | Developer', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile4.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
