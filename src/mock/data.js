@@ -1,5 +1,4 @@
 import { nanoid } from 'nanoid';
-import getEmail from '../../public/email';
 
 // HEAD DATA
 export const headData = {
@@ -77,7 +76,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: getEmail,
+  email: 'victor@victorzottmann.com',
 };
 
 // FOOTER DATA
