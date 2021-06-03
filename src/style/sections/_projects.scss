@@ -12,6 +12,10 @@
   .project-wrapper {
     margin-bottom: 15rem;
 
+    h2 {
+      color: black;
+    }
+
     @include respond(phone) {
       margin-bottom: 0rem;
     }
@@ -26,6 +30,7 @@
 
     .info-paragraph {
       font-weight: bold;
+      color: black;
     }
 
     &__text {
@@ -40,12 +45,17 @@
 
       &-title {
         // font-weight: bold;
+        color: black;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
 
         @include respond(phone) {
           font-size: 2rem;
         }
+      }
+
+      & p {
+        color: black;
       }
 
       & p > a {
