@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import getEmail from '../restricted/email';
+import getEmail from '../../public/email';
 
 // HEAD DATA
 export const headData = {
