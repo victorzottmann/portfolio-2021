@@ -18,9 +18,15 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile4.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I’m a junior web developer and audio engineer with a passion for the creative arts and education.',
+  paragraphTwo:
+    'I have completed a Master’s of Architectural Science with specialisation in Audio and Acoustics in 2020, where the intention was to transition into acoustic consulting. However, since I have focused much more on the technology side of things during the course, I decided to take a shot at pursuing a career in software development instead.',
+  paragraphThree:
+    "Based in Sydney, Australia, I'm skilled in HTML, CSS / SASS, Bootstrap, Ruby on Rails and PostgreSQL. I'm also currently learning JavaScript and React.js",
+  paragraphFour:
+    "Aside from coding, I'm passionate about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a daily running routine.",
+
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,8 +36,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'steamdeck.png',
     title: 'STEAMdeck',
-    info: '',
-    info2: '',
+    info: 'STEAMdeck is a two-sided marketplace focused on affordable academic book rentals. Academic books tend to be quite expensive, especially those related to science and technology.',
+    info2:
+      'Built with Ruby on Rails and PostgreSQL, the idea was to make it possible for users to either share or rent books in their local area.',
     url: 'https://steamdeck.herokuapp.com/',
     repo: 'https://github.com/victorzottmann/steamdeck', // if no repo, the button will not show up
   },
