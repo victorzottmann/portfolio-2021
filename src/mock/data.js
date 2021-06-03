@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import getEmail from '../restricted/email';
 
 // HEAD DATA
 export const headData = {
@@ -27,7 +28,7 @@ export const aboutData = {
   paragraphFour:
     "Aside from coding, I'm passionate about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a daily running routine.",
 
-  resume: '', // if no resume, the button will not show up
+  resume: 'Resume_VictorZottmann.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -76,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: getEmail,
 };
 
 // FOOTER DATA
