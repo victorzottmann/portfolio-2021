@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphFour:
     "Aside from coding, I'm passionate about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a daily running routine.",
 
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -36,9 +36,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'steamdeck.png',
     title: 'STEAMdeck',
-    info: 'STEAMdeck is a two-sided marketplace focused on affordable academic book rentals. Academic books tend to be quite expensive, especially those related to science and technology.',
+    info: 'A two-sided marketplace focused on affordable academic book rentals, built with Ruby on Rails and PostgreSQL.',
     info2:
-      'Built with Ruby on Rails and PostgreSQL, the idea was to make it possible for users to either share or rent books in their local area.',
+      'Since academic books tend to be quite expensive, especially those related to science and technology, the idea was to make it possible for users to either share or rent books in their local area. The app features maps integration for visualizing store location and opening hours.',
     url: 'https://steamdeck.herokuapp.com/',
     repo: 'https://github.com/victorzottmann/steamdeck', // if no repo, the button will not show up
   },
@@ -46,8 +46,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'gifs-n-stickers.png',
     title: 'GIFs-n-Stickers',
-    info: '',
-    info2: '',
+    info: 'Built with vanilla JavaScript, GIFs-n-Stickers is a simple web app that allows you to search for GIFs or stickers. Search results are always limited to 10 items.',
+    info2: 'This project was made in a two-day hackathon hosted at Coder Academy (Sydney).',
     url: 'https://gifs-n-stickers.netlify.app/',
     repo: 'https://github.com/teraglin/Gifs-N-Stickers', // if no repo, the button will not show up
   },
@@ -55,8 +55,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'acoustics.png',
     title: 'Sound Level Calculator (Terminal-based)',
-    info: '',
-    info2: '',
+    info: 'This is an interactive calculator of sound level and room acoustics parameters, made in Ruby. It only runs on the command line (CLI).',
+    info2:
+      "One of the projects for my master's degree involved designing the acoustics for about 15 rooms of an educational facility, and all the calculations were made in Microsoft Excel. The objective here was to convert that clunky Excel spreadsheet into a simple, user-friendly computer program.",
     url: '',
     repo: 'https://github.com/victorzottmann/acoustics-calculator', // if no repo, the button will not show up
   },
@@ -64,7 +65,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'portfolio-2020.png',
     title: 'First Portfolio',
-    info: '',
+    info: 'This was the first portfolio design I created when I started to learn programming. It was made only with HTML and CSS.',
     info2: '',
     url: '',
     repo: 'https://github.com/victorzottmann/portfolio-2020', // if no repo, the button will not show up

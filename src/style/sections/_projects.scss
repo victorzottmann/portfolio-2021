@@ -24,6 +24,10 @@
       }
     }
 
+    .info-paragraph {
+      font-weight: bold;
+    }
+
     &__text {
       text-align: left;
 
@@ -35,7 +39,7 @@
       }
 
       &-title {
-        font-weight: bold;
+        // font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
 
@@ -45,7 +49,7 @@
       }
 
       & p > a {
-        color: $secondary-color;
+        color: black;
       }
     }
 
