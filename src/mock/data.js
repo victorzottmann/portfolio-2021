@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Victor Zottmann | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: "Victor Zottmann's portfolio", // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphFour:
     "Aside from coding, I'm passionate about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a daily running routine.",
 
-  resume: 'Resume_VictorZottmann.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1a-Ykcj3MuwDCRECHRTXjspW5B6v3TMBl/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
