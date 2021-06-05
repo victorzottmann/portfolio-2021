@@ -58,16 +58,16 @@ export const projectsData = [
     info: 'This is an interactive calculator of sound level and room acoustics parameters, made in Ruby. It only runs on the command line (CLI).',
     info2:
       "One of the projects for my master's degree involved designing the acoustics for about 15 rooms of an educational facility, and all the calculations were made in Microsoft Excel. The objective here was to convert that clunky Excel spreadsheet into a simple, user-friendly computer program.",
-    url: '',
+    url: 'https://github.com/victorzottmann/acoustics-calculator',
     repo: 'https://github.com/victorzottmann/acoustics-calculator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'portfolio-2020.png',
+    img: 'portfolio.png',
     title: 'First Portfolio',
     info: 'This was the first portfolio design I created when I started to learn programming. It was made only with HTML and CSS.',
     info2: '',
-    url: '',
+    url: 'https://victorz.netlify.app/',
     repo: 'https://github.com/victorzottmann/portfolio-2020', // if no repo, the button will not show up
   },
 ];

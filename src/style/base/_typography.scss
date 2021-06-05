@@ -27,7 +27,6 @@ a:hover {
   margin: 0px;
   margin-bottom: 4.5rem;
   font-size: $big-font-size;
-  // text-transform: uppercase;
 
   @include respond(phone) {
     font-size: 2.8rem;
@@ -35,18 +34,19 @@ a:hover {
 }
 
 .dark-blue-text {
-  color: $dark-blue-text !important;
+  color: $dark-blue-text;
 }
 
 .text-color-main {
   background-color: $primary-color;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   // Responsive text purple style
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $primary-color;
   }
 
   &:hover {

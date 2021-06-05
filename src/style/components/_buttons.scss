@@ -24,8 +24,9 @@
 /* Hero Style */
 .cta-btn--hero {
   font-family: 'Montserrat', sans-serif;
-  background-color: #025d8d;
+  background-color: $primary-color;
 
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 2px solid $secondary-color;
@@ -36,7 +37,7 @@
   @include respond(phone) {
     background-image: none;
     border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $primary-color;
   }
 
   &::after {
@@ -50,10 +51,11 @@
   &:hover {
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
+
     // Responsive Button hover hero style
-    @include respond(phone) {
-      -webkit-text-fill-color: $secondary-color;
-    }
+    // @include respond(phone) {
+    //   -webkit-text-fill-color: $white-color;
+    // }
 
     &::after {
       width: 100%;
@@ -71,7 +73,7 @@
   }
 
   &:hover {
-    color: $secondary-color;
+    color: $primary-color;
     text-decoration: none;
 
     &::after {
