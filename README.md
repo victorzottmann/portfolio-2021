@@ -1,6 +1,6 @@
 # Portfolio 2021
 
-### Made with Gatsby.js
+This time around I designed my portfolio using a template from Gatsby.js. I wanted to try a new tool instead of re-designing my [dated portfolio](https://github.com/victorzottmann/portfolio-2020) from 2020. 
 
 ## License 📄
 
