@@ -23,11 +23,11 @@ export const aboutData = {
   paragraphTwo:
     'I have completed a Master’s of Architectural Science with specialisation in Audio and Acoustics in 2020, where the intention was to transition into acoustic consulting. However, since I have focused much more on the technology side of things during the course, I decided to take a shot at pursuing a career in software development instead.',
   paragraphThree:
-    "Based in Sydney, Australia, I'm skilled in HTML, CSS / SASS, Bootstrap, Ruby on Rails and PostgreSQL. I'm also currently learning JavaScript and React.js",
+    "Based in Sydney, Australia, I'm skilled in HTML, CSS / SASS, Bootstrap, Ruby on Rails and PostgreSQL. I'm also currently learning JavaScript and React.js.",
   paragraphFour:
-    "Aside from coding, I'm passionate about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a daily running routine.",
+    "Aside from coding, I'm enthusiastic about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a daily running routine.",
 
-  resume: 'https://drive.google.com/file/d/1a-Ykcj3MuwDCRECHRTXjspW5B6v3TMBl/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1-HqCY8f2XHjXb_ZHUYI1IinlpNjiLNIR/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
