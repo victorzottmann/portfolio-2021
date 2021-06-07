@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile4.jpg',
   paragraphOne:
-    'I’m a junior web developer and audio engineer with a passion for the creative arts and education.',
+    'I’m a full stack developer and audio engineer with a passion for the creative arts and education.',
   paragraphTwo:
     'I have completed a Master’s of Architectural Science with specialisation in Audio and Acoustics in 2020, where the intention was to transition into acoustic consulting. However, since I have focused much more on the technology side of things during the course, I decided to take a shot at pursuing a career in software development instead.',
   paragraphThree:
@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphFour:
     "Aside from coding, I'm enthusiastic about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a daily running routine.",
 
-  resume: 'https://drive.google.com/file/d/1-HqCY8f2XHjXb_ZHUYI1IinlpNjiLNIR/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1PVwroew_YK72LvwuVXDi-w0gYikfzDx7/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
