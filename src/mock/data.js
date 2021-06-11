@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphFour:
     "Aside from coding, I'm enthusiastic about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a regular running routine.",
 
-  resume: 'https://drive.google.com/file/d/1PVwroew_YK72LvwuVXDi-w0gYikfzDx7/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/166NCpG9uMQ_10bX8qzQ6JECJ4W7s3Xkp/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
