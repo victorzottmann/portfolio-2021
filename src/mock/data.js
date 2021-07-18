@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'profile4.jpg',
   paragraphOne:
-    'I’m a full stack developer and audio engineer with a passion for the creative arts and education.',
+    'I’m a web developer and audio engineer with a passion for the creative arts, design, and education.',
   paragraphTwo:
     'I have completed a Master’s of Architectural Science with specialisation in Audio and Acoustics in 2020, where the intention was to transition into acoustic consulting. However, since I have focused much more on the technology side of things during the course, I decided to take a shot at pursuing a career in software development instead.',
   paragraphThree:
-    "Based in Sydney, Australia, I'm skilled in HTML, CSS / SASS, Bootstrap, Ruby on Rails and PostgreSQL. I'm also currently learning JavaScript and React.js.",
+    "Based in Sydney, Australia, I'm skilled in HTML, CSS / SASS, Bootstrap, Ruby on Rails and PostgreSQL. I'm also currently learning JavaScript and React.js. Although my skills are stronger in the front-end, I'm also very interested in back-end development.",
   paragraphFour:
-    "Aside from coding, I'm enthusiastic about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a regular running routine.",
+    "Aside from coding, I'm enthusiastic about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a regular walking/running routine.",
 
   resume: 'https://drive.google.com/file/d/1lOL6vo53u5BwmKGs_rkLdxyPKlYxk2_m/view?usp=sharing', // if no resume, the button will not show up
 };
