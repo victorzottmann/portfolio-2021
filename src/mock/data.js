@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile4.jpg',
   paragraphOne:
-    'I’m a web developer and audio engineer with a passion for the creative arts, design, and education.',
+    'I’m a front-end developer and audio engineer with a passion for the creative arts, design, and education.',
   paragraphTwo:
     'I have completed a Master’s of Architectural Science with specialisation in Audio and Acoustics in 2020, where the intention was to transition into acoustic consulting. However, since I have focused much more on the technology side of things during the course, I decided to take a shot at pursuing a career in software development instead.',
   paragraphThree:
