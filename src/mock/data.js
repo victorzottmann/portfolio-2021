@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'profile4.jpg',
   paragraphOne:
-    'I’m a front-end developer and audio engineer with a passion for the creative arts, design, and education.',
+    'I’m a front-end developer and UI/UX with a passion for the creative arts.',
   paragraphTwo:
     'I have completed a Master’s of Architectural Science with specialisation in Audio and Acoustics in 2020, where the intention was to transition into acoustic consulting. However, since I have focused much more on the technology side of things during the course, I decided to take a shot at pursuing a career in software development instead.',
   paragraphThree:
     "Based in Sydney, Australia, I'm skilled in HTML, CSS / SASS, Bootstrap, Ruby on Rails and PostgreSQL. I'm also currently learning JavaScript and React.js. Although my skills are stronger in the front-end, I'm also very interested in back-end development.",
   paragraphFour:
-    "Aside from coding, I'm enthusiastic about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a regular walking/running routine.",
+    "Aside from coding, I'm enthusiastic about filmmaking, tennis, hiking, and travelling. I've also been trying to get into a regular swimming routine.",
 
   resume: 'https://drive.google.com/file/d/1lOL6vo53u5BwmKGs_rkLdxyPKlYxk2_m/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -34,12 +34,19 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'victors-car-rental.png',
+    title: 'Victor\'s Car Rental',
+    info: 'A clone of a typical car rental website written in HTML, CSS, and JavaScript with jQuery',
+    url: 'https://victorz-car-rental.netlify.app',
+    repo: 'https://github.com/victorzottmann/car-rental', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'steamdeck.png',
     title: 'STEAMdeck',
     info: 'A two-sided marketplace focused on affordable academic book rentals, built with Ruby on Rails and PostgreSQL.',
     info2:
       'Since academic books tend to be quite expensive, especially those related to science and technology, the idea was to make it possible for users to either share or rent books in their local area. The app features maps integration for visualizing store location and opening hours.',
-    url: 'https://steamdeck.herokuapp.com/',
     repo: 'https://github.com/victorzottmann/steamdeck', // if no repo, the button will not show up
   },
   {
@@ -76,17 +83,12 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'victor@victorzottmann.com',
+  email: '',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/vzcodes',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
